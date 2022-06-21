@@ -5,7 +5,7 @@
 ### 示例：
 
 <m-card
-    imgSrc="/java.png"
+    imgSrc="/vue-ch-ui/java.png"
     summary="剑指Java面试-Offer直通车  百度资深面试官授课" 
   />
 
@@ -14,13 +14,13 @@
 ```html
 <template>
   <m-card
-    imgSrc="/java.png"
+    imgSrc="/vue-ch-ui/java.png"
     summary="剑指Java面试-Offer直通车  百度资深面试官授课"
   />
 </template>
 ```
 
-## Attributes
+### Attributes
 
 | 参数      | 说明         | 类型        | 是否必要 | 默认值 |
 | --------- | ------------ | ----------- | -------- | ------ |
