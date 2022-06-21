@@ -1,24 +1,27 @@
-# vue-components-ui
+# vue-ch-ui 组件库
 
-## Project setup
-```
-npm install
-```
+### 说明
+**该项目vue组件库,webpack多组件单独打包js,使用gulp打包sass并压缩**
 
-### Compiles and hot-reloads for development
+### 安装
 ```
-npm run serve
+npm i vue-ch-ui
 ```
 
-### Compiles and minifies for production
-```
-npm run build
+### 引入组件库
+> 在 main.js 中引入组件库
+
+```javascript
+// 全部引入
+import 'vue-ch-ui/dist/css/index.css'
+import VueComponents from "vue-ch-ui";
+Vue.use(VueComponents);
+
+// 按需引入
+import 'vue-ch-ui/dist/css/demo.css'
+import { Demo } from "vue-ch-ui";
+Vue.use(Demo);
+
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Copyright (c) 2021-present zack
