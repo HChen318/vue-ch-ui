@@ -3,6 +3,10 @@
 ### 说明
 **该项目vue组件库,webpack多组件单独打包js,使用gulp打包sass并压缩**
 
+
+### 组件文档
+
+https://ch250001757.github.io/vue-ch-ui/
 ### 安装
 ```
 npm i vue-ch-ui

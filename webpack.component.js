@@ -1,6 +1,6 @@
 const glob = require("glob"); // 动态读文件夹来遍历
 const path = require("path");
-
+const { CleanWebpackPlugin } = require("clean-webpack-plugin"); // 清理文件夹
 const { VueLoaderPlugin } = require("vue-loader");
 
 const list = {};
@@ -26,7 +26,7 @@ module.exports = {
     library: "myLib",
     libraryTarget: "umd",
   },
-  plugins: [new VueLoaderPlugin()],
+  plugins: [new CleanWebpackPlugin(), new VueLoaderPlugin()],
   module: {
     rules: [
       {
