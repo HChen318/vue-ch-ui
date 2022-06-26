@@ -5,8 +5,8 @@
 ### 示例：
 
 <m-card
-    imgSrc="/vue-ch-ui/java.png"
-    summary="剑指Java面试-Offer直通车  百度资深面试官授课" 
+    imgSrc="/vue-ch-ui/react.png"
+    summary="react learn" 
   />
 
 ### 代码：
@@ -14,8 +14,8 @@
 ```html
 <template>
   <m-card
-    imgSrc="/vue-ch-ui/java.png"
-    summary="剑指Java面试-Offer直通车  百度资深面试官授课"
+    imgSrc="/vue-ch-ui/react.png"
+    summary="react learn"
   />
 </template>
 ```
