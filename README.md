@@ -21,6 +21,7 @@ import VueComponents from "vue-ch-ui";
 Vue.use(VueComponents);
 
 // 按需引入
+
 import 'vue-ch-ui/dist/css/demo.css'
 import { Demo } from "vue-ch-ui";
 Vue.use(Demo);
